@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climb Log</title>
+    <style>
+        /* Styles for macOS-style traffic light buttons */
+        .traffic-light {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 24px;
+        }
+        .button {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .red { background-color: red; }
+        .yellow { background-color: yellow; }
+        .green { background-color: green; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="traffic-light">
+            <div class="button red" title="Close"></div>
+            <div class="button yellow" title="Minimize"></div>
+            <div class="button green" title="Maximize"></div>
+        </div>
+    </header>
+    <main>
+        <h1>Climb Log</h1>
+        <p>Log your climbing activities here!</p>
+    </main>
+</body>
+</html>
